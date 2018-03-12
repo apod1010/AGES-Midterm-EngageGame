@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: d30aea2fa9a093e498e8b2ccbf9353ce
+timeCreated: 1519072095
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Red Rocket Laser
+  fontNames:
+  - Red Rocket Laser
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

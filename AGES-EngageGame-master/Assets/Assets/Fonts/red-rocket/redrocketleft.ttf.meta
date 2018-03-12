@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b24aa25f1b96e0f4b8febfc0dd1a2e04
+timeCreated: 1519072094
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Red Rocket Leftalic
+  fontNames:
+  - Red Rocket Leftalic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
