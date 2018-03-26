@@ -9,6 +9,11 @@ public class PlayerHealth : MonoBehaviour
     public float maxHealth = 100f;
     public float currentHealth = 100f;
 
+    public AudioSource shipDestroyed;
+
+    //public float deathdelay = 2f;
+    //WaitForSeconds deathwait;
+
     public Slider healthSlider;
 
     [SerializeField]
@@ -16,10 +21,14 @@ public class PlayerHealth : MonoBehaviour
 
     private void Start()
     {
+        //deathwait = new WaitForSeconds(deathdelay);
+
         //healthSlider = GetComponentInChildren<Slider>();
         //healthSlider.maxValue = maxHealth;
         //healthSlider.value = healthSlider.maxValue;
         currentHealth = maxHealth;
+
+
     }
 
     void OnCollisionEnter(Collision collision)
@@ -53,6 +62,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentHealth < 1)
         {
+            shipDestroyed.Play();
             Destroy(gameObject);
         }
     }
