@@ -18,7 +18,7 @@ public class Shield : MonoBehaviour
 
 
 
-    public float rotateSpeed = 20f;
+    public float rotateSpeed = 40f;
     public float rotateIncrease = 10f;
 
 
